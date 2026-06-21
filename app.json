@@ -15,7 +15,10 @@
     "ios": {
       "bundleIdentifier": "com.streamcode.app",
       "supportsTablet": true,
-      "infoPlist": { "ITSAppUsesNonExemptEncryption": false }
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSFaceIDUsageDescription": "StreamCode uses Face ID to unlock the app and protect your streaming codes."
+      }
     },
     "android": {
       "package": "com.streamcode.app",
